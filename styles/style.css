@@ -35,6 +35,7 @@ body {
     text-align: center;
     font-size: 18px;
 }
+
 /* nav related styles */
 
 nav{
@@ -115,8 +116,8 @@ main{
     margin: 0 auto;
 }
 
-
 /* about section styles */
+
 .about{
     padding: 130px;
     border-radius: 10px;
@@ -140,9 +141,19 @@ main{
     font-size: 20px;
     font-weight: 700;
 }
+
+/* What I Do Section */
+
 #whai-i-do-description{
     padding: 30px 150px;
     color: #757575;
     font-size: 18px;
     font-weight: 400;
+}
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
 }
