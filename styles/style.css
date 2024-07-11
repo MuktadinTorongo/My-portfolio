@@ -1,0 +1,49 @@
+/* common shared fonts */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sana', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+.btn-primary { 
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 25px;
+    text-align: center;
+}
+/* nav relates styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
