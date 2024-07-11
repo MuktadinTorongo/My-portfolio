@@ -1,4 +1,5 @@
 /* common shared fonts */
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sana', sans-serif;
@@ -20,30 +21,49 @@ body {
     padding: 15px 25px;
     text-align: center;
 }
-/* nav relates styles */
+
+/* nav related styles */
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
     
 }
 .nav-title{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-
 }
 nav > ul{
     display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
 }
 
 nav li{
     list-style: none;
-    margin-right: 50px;
-    
+    margin-right: 50px;  
 }
 
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/*header related styles*/
+
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
